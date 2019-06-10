@@ -1,0 +1,18 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka9901:9901/eureka/,http://eureka9902:9902/eureka/,http://eureka9903:9903/eureka/
+    register-with-eureka: true
+    fetch-registry: true
+server:
+  port: 9926
+spring:
+  application:
+    name: springcloud-sell-order
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: miaoqi
+    url: jdbc:mysql://127.0.0.1:3306/springcloud_sell
+  jpa:
+    show-sql: true
