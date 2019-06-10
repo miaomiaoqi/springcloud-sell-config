@@ -8,7 +8,7 @@ server:
   port: 9926
 spring:
   application:
-    name: springcloud-sell-orderxx
+    name: springcloud-sell-order
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
