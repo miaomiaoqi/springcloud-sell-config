@@ -8,3 +8,9 @@ spring:
   redis:
     host: localhost
     port: 7379
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka9901:9901/eureka/,http://eureka9902:9902/eureka/,http://eureka9903:9903/eureka/
+    register-with-eureka: true
+    fetch-registry: true
