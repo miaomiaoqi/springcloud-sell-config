@@ -1,6 +1,4 @@
 spring:
-  application:
-    name: springcloud-sell-product
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
